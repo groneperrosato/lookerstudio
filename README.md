@@ -1,10 +1,11 @@
 # Looker Studio
 
-Dashboards using Google Looker Studio
+Creating Dashboards with Google Looker Studio
 
-The architecture used to develop the SEM project was in Google Cloud Platform:
+This project was developed using the architecture provided by Google Cloud Platform:
 
-- A virtual machine to use R and interactuate with BigQuery, Cloud SQL and Google Storage
-- BigQuery to save and work with the Cookie Level Data
-- Cloud Storage to storage the files that we will work with
-- Cloud SQL to upload the tables from the files
+- A virtual machine was used to interact with BigQuery, Cloud SQL, and Google Storage using R
+- BigQuery was used to store and manipulate the Cookie Level Data
+- Cloud Storage was used to store the files that we worked with
+- Cloud SQL was used to upload the tables from the files
+- Google Looker Studio was used to bring all of the elements together in one place and create the dashboards
